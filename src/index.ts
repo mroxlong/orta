@@ -1,4 +1,4 @@
-import {ConnectionConfigObject, Results} from "./types";
+import {ConnectionConfigObject, Results} from "../types";
 import {PoolConnection} from "mysql2/typings/mysql/lib/PoolConnection";
 import * as mysql from 'mysql2'
 import {Pool} from "mysql2/typings/mysql/lib/Pool";
