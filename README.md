@@ -11,7 +11,7 @@ Floopi is a tool I made because I found myself needing to setup MySQL and poolin
 
 #### Import
 ```js
-const  { Floopi } = require("floopi")
+const  Floopi  = require("floopi")
 ```
 ES6
 ```js

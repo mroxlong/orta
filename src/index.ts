@@ -4,7 +4,7 @@ import * as mysql from 'mysql2'
 import {Pool} from "mysql2/typings/mysql/lib/Pool";
 import {QueryError, RowDataPacket} from "mysql2";
 import ErrnoException = NodeJS.ErrnoException;
-class Floopi{
+export class Floopi{
 
 
     private connection: Pool;
