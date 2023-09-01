@@ -23,7 +23,6 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Floopi = void 0;
 const mysql = __importStar(require("mysql2"));
 class Floopi {
     constructor(connectionConfig) {
@@ -61,4 +60,4 @@ class Floopi {
         });
     }
 }
-exports.Floopi = Floopi;
+module.exports = { Floopi };
