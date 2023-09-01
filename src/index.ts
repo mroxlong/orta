@@ -55,4 +55,4 @@ class Floopi{
     }
 }
 
-module.exports ={Floopi}
+module.exports = Floopi
