@@ -1,5 +1,7 @@
 import {RowDataPacket} from "mysql2";
 
+
+declare module 'floopi'
 export type ConnectionConfigObject =  {
 
     connectionLimit?: number,
