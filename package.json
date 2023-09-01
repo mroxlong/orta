@@ -5,7 +5,7 @@
     "mysql",
     "pooling"
   ],
-  "description": "MySQL tool that makes using MySQL with raw queries simpler",
+  "description": "MySQL tool that makes using MySQL pooling with raw queries simpler",
   "main": "./dist/index.js",
   "scripts": {
     "watch": "tsc --watch",
