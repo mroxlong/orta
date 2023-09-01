@@ -1,11 +1,19 @@
 {
   "name": "floopi",
   "version": "1.0.2",
-  "description": "",
-  "main": "index.js",
+  "keywords": ["mysql", "pooling"],
+  "description": "MySQL tool that makes using MySQL with raw queries simpler",
+  "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "tsc --watch",
+    "build": "tsc"
   },
   "author": "Dylan Westraadt",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.8"
+  }
 }
