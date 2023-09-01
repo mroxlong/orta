@@ -1,7 +1,10 @@
 {
   "name": "floopi",
-  "version": "1.0.2",
-  "keywords": ["mysql", "pooling"],
+  "version": "0.0.1",
+  "keywords": [
+    "mysql",
+    "pooling"
+  ],
   "description": "MySQL tool that makes using MySQL with raw queries simpler",
   "main": "./dist/index.js",
   "scripts": {
