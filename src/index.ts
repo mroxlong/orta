@@ -4,7 +4,7 @@ import * as mysql from 'mysql2'
 import {Pool} from "mysql2/typings/mysql/lib/Pool";
 import {QueryError, RowDataPacket} from "mysql2";
 import ErrnoException = NodeJS.ErrnoException;
-export class Floopi{
+class Floopi{
 
 
     private connection: Pool;
@@ -55,3 +55,4 @@ export class Floopi{
     }
 }
 
+module.exports ={Floopi}
